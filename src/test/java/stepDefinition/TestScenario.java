@@ -41,7 +41,6 @@ public class TestScenario {
                 .param("longitude", "-122.43")
                 .param("altitude", "222")
                 .post("/stations");
-//                .then().statusCode(401);
         given()
                 .header("key","7229a179ba899b4d9b5ad19bf8b2d67f")
                 .header("Content-Type","application/json")
@@ -51,7 +50,6 @@ public class TestScenario {
                 .param("longitude", "-122.44")
                 .param("altitude", "111")
                 .post("/stations");
-//                .then().statusCode(401);
     }
 
     @When("^User requests for station details correct response is provided$")
