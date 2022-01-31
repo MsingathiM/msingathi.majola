@@ -38,7 +38,7 @@ view their balance afterwards and capture their expenses and attach an expense t
 Task 3
 =============
 Using Rest-Assured library with cucumber, I wrote automated test cases for Petstore Swagger API endpoints. 
-These test cases primarily focused on correct functioning of endpoints using various test cases.
+These test cases primarily focused on correct functioning of endpoints using various test cases. Everything available from the src > test folder for this task.
 
 1. Open IntelliJ IDEA that was download from the previous Task
 2. Make sure the PetStore Swagger API playground server is running
