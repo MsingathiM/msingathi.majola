@@ -36,13 +36,13 @@ public class Monefy {
         capabilities.setCapability("noReset","true");
 //        capabilities.setCapability("appPackage","com.monefy.activities.MainActivity_");
 //        capabilities.setCapability("appActivity",".MainActivity_");
-        capabilities.setCapability("app","/Users/admin/Downloads/com.monefy.app.lite_2021-12-17.apk");
+        capabilities.setCapability("app","/msingathi.majola/apps/com.monefy.app.lite_2021-12-17.apk");
 
         driver = new AppiumDriver (new URL("http://localhost:4723/wd/hub"), capabilities);
 
 
         //Generate Report
-        htmlReporter = new ExtentHtmlReporter("/Users/admin/Documents/Work/apitestcucumber/" +
+        htmlReporter = new ExtentHtmlReporter("/msingathi.majola/" +
                 "src/test/java/Monefy.html");
         extent.attachReporter(htmlReporter);
         ExtentTest test = extent.createTest("Monefy");
